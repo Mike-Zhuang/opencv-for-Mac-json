@@ -6,7 +6,7 @@
             "command": "/bin/zsh",
             "args": [
                 "-c",
-                "/usr/bin/clang++ -std=c++17 -fcolor-diagnostics -g \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" $(pkg-config --cflags --libs opencv4)"
+                "/usr/bin/clang++ -std=c++17 -fcolor-diagnostics -g /Users/mike/Documents/University/Grade_1A/opencv/try.cpp -o /Users/mike/Documents/University/Grade_1A/opencv/try $(pkg-config --cflags --libs opencv4)"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -16,7 +16,7 @@
             ],
             "group": {
                 "kind": "build",
-                "isDefault": false
+                "isDefault": true
             },
             "detail": "编译器: clang++"
         },
